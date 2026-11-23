@@ -1,0 +1,27 @@
+# Build output and local caches
+.gradle/
+.kotlin/
+**/build/
+.externalNativeBuild/
+.cxx/
+/captures/
+
+# Local IDE and SDK configuration
+.idea/
+*.iml
+local.properties
+.DS_Store
+
+# Credentials and signing files
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+keystore.properties
+key.properties
+
+# Local agent configuration
+.codex/
+.agents/
+.aws/
